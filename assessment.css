@@ -1,0 +1,52 @@
+h2{
+  color: darkGreen;
+  font-family: sans-serif;
+}
+h3{
+  color: darkGreen;
+  font-family: sans-serif;
+}
+h4{
+  color: darkGreen;
+  font-family: sans-serif;
+}
+h5{
+  color: darkGreen;
+  font-family: sans-serif;
+}
+
+thead{
+  color: brown;
+  font-weight: bold;
+}
+th, td {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-Right: 1px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+  /* padding: 15px; */
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: square;
+}
+a:hover{
+  color: violet;
+  text-decoration: overline;
+}
+
+blockquote {
+  background-color: brown;
+  color: yellow;
+}
+
+div.relative:first-child {
+  /* width: 100px; */
+}
+
+.checkbox-grid{
+
+}
