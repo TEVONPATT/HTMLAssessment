@@ -19,6 +19,14 @@ thead{
   color: brown;
   font-weight: bold;
 }
+/* th{
+  color: red;
+  font-weight: bold;
+}
+table{
+  border: solid;
+  text-align: center;
+} */
 th, td {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
@@ -33,20 +41,31 @@ ul{
 ol{
   list-style-type: square;
 }
-a:hover{
+.hyperLink:hover{
   color: violet;
   text-decoration: overline;
+  background-color: silver;
 }
 
 blockquote {
   background-color: brown;
   color: yellow;
 }
-
-div.relative:first-child {
-  /* width: 100px; */
+[alt]{
+  display: none;
 }
 
-.checkbox-grid{
+ul#teamRoster > li:first-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+background-size: contain;
+background-repeat: no-repeat;
+}
+ul#teamRoster > li:last-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+#checkbox-grid{
+  list-style-type: none;
 }
